@@ -8,3 +8,4 @@ version          "0.1.0"
 
 suggests 'bluepill'
 depends 'rc_mon'
+depends 'bluepill'
