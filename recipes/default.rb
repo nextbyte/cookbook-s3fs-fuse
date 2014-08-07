@@ -3,9 +3,9 @@
 # Recipe:: default
 #
 
-puts node[:s3fs_fuse].to_s
+#puts node[:s3fs_fuse].to_s
 
-puts node.to_s
+puts node.inspect
 
 mounted_directories = node[:s3fs_fuse][:mounts]
 if(mounted_directories.is_a?(Hash) || !mounted_directories.respond_to?(:each))
