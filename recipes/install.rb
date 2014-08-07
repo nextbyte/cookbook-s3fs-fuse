@@ -88,6 +88,10 @@ end
 
 # end
 
+puts node["bluepill"].to_s
+
+puts "Test"
+
 s3fs_version = node[:s3fs_fuse][:version]
 source_url = "http://s3fs.googlecode.com/files/s3fs-#{s3fs_version}.tar.gz"
 
